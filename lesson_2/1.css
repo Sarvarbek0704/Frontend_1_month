@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.box {
+  background: #9acd32;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 22px;
+  color: white;
+}
+
+.big {
+  width: 100%;
+}
+
+.mid {
+  flex: 1;
+}
+
+.small {
+  flex: 1;
+}
+
+.small2 {
+  flex: 1;
+  padding: 15px 0;
+}
+
+.tiny {
+  flex: 1;
+  padding: 10px 0;
+}
+
+.row28 .tiny {
+  font-size: 16px;
+}
