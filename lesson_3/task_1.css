@@ -1,0 +1,133 @@
+body {
+  background: #fafafa;
+  margin: 0;
+}
+
+.navbar {
+  height: 70px;
+  padding: 0 40px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.menu li {
+  opacity: 0.7;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.actions input {
+  padding: 7px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #ededed;
+}
+
+.buy-btn {
+  padding: 8px 18px;
+  background: #ff9271;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1100px;
+  width: auto;
+  margin: 40px auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 25px;
+  margin: 25px 0;
+}
+
+.tabs button {
+  padding: 8px 18px;
+  border: none;
+  background: #efefef;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.tabs button:hover {
+  background: #ff9271;
+  color: white;
+  transition: 0.3s;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+}
+
+.posts {
+  max-width: 70%;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.sidebar h4 {
+  margin-bottom: 15px;
+}
+
+.side-card {
+  background: white;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+}
+
+.side-card img {
+  width: 70px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.side-card span {
+  font-size: 12px;
+  color: #ff6a3d;
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 55px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(30, 30, 30);
+  align-items: center;
+  padding: 5px 50px;
+  gap: 25px;
+  max-width: 100%;
+  width: auto;
+}
+
+.nav-first {
+  display: flex;
+  gap: 25px;
+  padding: 5px 50px;
+}
+
+.logo {
+  font-size: 18px;
+  color: rgb(150, 149, 149);
+}
+
+.menu {
+  margin: 0 30px;
+  list-style: none;
+  display: flex;
+  color: rgb(150, 149, 149);
+  gap: 15px;
+}
+
+.menu li:hover {
+  background-color: black;
+  color: white;
+}
+
+.nav-second {
+  display: flex;
+  gap: 4px;
+  padding: 5px 50px;
+}
+
+.nav-second input {
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.nav-second button {
+  padding: 6px 16px;
+  background-color: rgb(210, 210, 210);
+  border-radius: 6px;
+}
+
+.root {
+  margin: 15px 100px;
+  border-radius: 6px;
+  background-color: rgb(224, 223, 223);
+  padding: 70px 20px;
+}
+
+.root h1 {
+  font-size: 62px;
+  padding: 5px 20px;
+}
+
+.root p {
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+.root button {
+  font-size: 20px;
+  margin: 5px 20px;
+  padding: 11px;
+  border-radius: 8px;
+  background-color: rgb(85, 85, 233);
+  color: white;
+  border: 1px solid rgb(77, 77, 216);
+}
+
+.root button:hover {
+  background-color: rgb(72, 72, 174);
+  border: 1px solid rgb(70, 70, 161);
+}
+
+.posts {
+  margin: 25px 100px;
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid rgb(237, 236, 236);
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card button {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(150, 149, 149);
+  margin-bottom: 25px;
+}
+
+.card button:hover {
+  background-color: rgb(224, 222, 222);
+}
+
+.under {
+  margin: 25px 100px;
+}
