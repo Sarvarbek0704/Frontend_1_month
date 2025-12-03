@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1920px;
+  width: auto;
+  margin: 0 277px;
+}
+
+.navbar {
+  align-items: center;
+  height: 47px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 151px;
+  height: 47px;
+}
+
+.menuul {
+  font-weight: 650;
+  font-size: 16px;
+  display: flex;
+  gap: 18px;
+  list-style: none;
+}
+
+.menuul li:hover {
+  color: gray;
+}
+
+.signup {
+  color: white;
+  padding: 5px 14px;
+  background-color: #9e8574;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border: none;
+}
+
+.signup:hover {
+  background-color: #caa892;
+}
+
+.post {
+  margin: 70px auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.wrapper1 button {
+  color: white;
+  padding: 6px 17px;
+  background-color: #37806b;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border: none;
+}
+
+.but {
+  display: flex;
+  align-self: start;
+}
+.wrapper1 button:hover {
+  background-color: #49a78c;
+}
+
+.text h4 {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.text h1 {
+  margin-bottom: 20px;
+}
+
+.text p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.rootImg img {
+  width: 550px;
+  height: 480px;
+  border-top-left-radius: 130px;
+  border-bottom-right-radius: 130px;
+}
+
+.bir {
+  color: gray;
+}
+
+.ikki {
+  margin-bottom: 30px;
+}
+
+.furnitures {
+  display: flex;
+  gap: 30px;
+}
+
+.furnitures div {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border-top-left-radius: 43px;
+  border-bottom-right-radius: 43px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.furnitures div h4 {
+  margin-bottom: 10px;
+}
+
+.f2 {
+  background-color: #caa892;
+  color: white;
+}
+
+.f2 h4 {
+  background-color: #caa892;
+}
+
+.f2 p {
+  background-color: #caa892;
+}
+
+.rootImg2 img {
+  width: 550px;
+  height: 480px;
+  border-top-left-radius: 130px;
+  border-bottom-right-radius: 130px;
+}
+
+.yigirma{
+  font-size: 200px;
+}
